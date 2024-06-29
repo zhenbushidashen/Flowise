@@ -81,8 +81,8 @@ class ChatAnthropic_ChatModels implements INode {
             },
             {
                 label: '代理地址(anthropicApiUrl)',
-                name: 'topK',
-                type: 'anthropicApiUrl',
+                name: 'anthropicApiUrl',
+                type: 'string',
                 optional: true,
                 additionalParams: true
             },
