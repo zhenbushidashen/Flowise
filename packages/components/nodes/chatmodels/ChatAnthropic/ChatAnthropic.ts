@@ -80,6 +80,13 @@ class ChatAnthropic_ChatModels implements INode {
                 additionalParams: true
             },
             {
+                label: '代理地址(anthropicApiUrl)',
+                name: 'anthropicApiUrl',
+                type: 'string',
+                optional: true,
+                additionalParams: true
+            },
+            {
                 label: 'Allow Image Uploads',
                 name: 'allowImageUploads',
                 type: 'boolean',
